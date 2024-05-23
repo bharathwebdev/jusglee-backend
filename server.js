@@ -62,7 +62,7 @@ function verifyToken(req, res, next) {
     });
 }
 
-app.listen(3000, '0.0.0.0', () => {
+app.listen(3000, 'jusglee-backend.vercel.app', () => {
     console.log('Server is running on port 3000');
 });
 export const login = (token) => ({
